@@ -1,0 +1,28 @@
+{
+  "name": "college-placement-management-system",
+  "version": "1.0.0",
+  "description": "Ultimate College Placement Management System - A comprehensive MERN application",
+  "main": "server/server.js",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-server": "cd server && npm install",
+    "install-client": "cd client && npm install",
+    "install-all": "npm install && npm run install-server && npm run install-client",
+    "build": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "placement",
+    "management",
+    "MERN",
+    "college",
+    "recruitment"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
